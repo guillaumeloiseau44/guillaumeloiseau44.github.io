@@ -1,0 +1,49 @@
+header{
+	border: 3px grey solid;
+	border-radius: 15px;
+	background-color: white;
+
+}
+
+
+h1{
+font-size: 30px;
+text-align: center;
+color: #de7471
+}
+
+p{
+font-size: 20px;
+text-align: left;
+font-family: Helvetica, sans-serif;
+}
+
+body {
+background-color: rgb(222, 170, 67);
+}
+
+a{
+	text-decoration:none;
+	width:75px;
+	height:50px;
+	border-color:black;
+	border-top:2px solid;
+	border-bottom:2px solid;
+	border-right:2px solid;
+	border-left:2px solid;
+	border-radius:10px 10px 10px;
+	-o-border-radius:10px 10px 10px;
+	-webkit-border-radius:10px 10px 10px;
+	font-family:"Trebuchet MS",Arial, Helvetica, sans-serif;
+	-moz-border-radius:10px 10px 10px;
+	/*background-color:#525252;*/
+	background-color:#de7471;
+	padding:8px;
+	text-align:center;
+}
+a:link {color:white;}      /* unvisited link */
+a:visited {color:white;}  /* visited link */
+a:hover {color:#de7471;
+		background-color:white;
+}  /* mouse over link */
+a:active {color:white;}  /* selected link */
